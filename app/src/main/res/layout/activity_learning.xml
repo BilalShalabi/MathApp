@@ -20,19 +20,23 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#673AB7"
             android:orientation="vertical">
 
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
+                android:background="#9A79D6"
                 android:text="Definition :"
+                android:textColor="#3B3353"
                 android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/definition"
                 android:layout_width="405dp"
                 android:layout_height="wrap_content"
+                android:textColor="#EDEDED"
                 android:textSize="20sp" />
 
             <ImageView
@@ -43,14 +47,17 @@
 
             <TextView
                 android:id="@+id/title1"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="#9A79D6"
+                android:textColor="#3B3353"
                 android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/typ1"
                 android:layout_width="408dp"
                 android:layout_height="wrap_content"
+                android:textColor="#EDEDED"
                 android:textSize="20sp" />
 
             <ImageView
@@ -63,12 +70,15 @@
                 android:id="@+id/title2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="#9A79D6"
+                android:textColor="#3B3353"
                 android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/typ2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="#EDEDED"
                 android:textSize="20sp" />
 
             <ImageView
@@ -79,14 +89,17 @@
 
             <TextView
                 android:id="@+id/title3"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="#9A79D6"
+                android:textColor="#3B3353"
                 android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/typ3"
                 android:layout_width="408dp"
                 android:layout_height="wrap_content"
+                android:textColor="#EDEDED"
                 android:textSize="20sp" />
 
             <ImageView

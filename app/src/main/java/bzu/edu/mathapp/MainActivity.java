@@ -18,7 +18,6 @@ ListView list;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-       EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
 
         list =(ListView) findViewById(R.id.list);
