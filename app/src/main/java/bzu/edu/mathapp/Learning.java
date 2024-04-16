@@ -31,7 +31,7 @@ public class Learning extends AppCompatActivity {
         Intent intent =getIntent();
         setupViews();
 
-        String Subject=intent.getStringExtra(MainActivity.SUBJECT);
+        String Subject=intent.getStringExtra(Home.SUBJECT);
         if(Subject!=null) {
             switch (Subject){
                 case "0":
