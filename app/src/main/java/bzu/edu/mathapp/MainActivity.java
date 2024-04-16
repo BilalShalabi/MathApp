@@ -84,6 +84,8 @@ public class MainActivity extends AppCompatActivity {
         editor.putBoolean(Check, ch.isChecked());
         editor.apply();
         Toast.makeText(MainActivity.this,"Thanks",Toast.LENGTH_LONG).show();
+        this.recreate();
+
 //}
     }
 }
